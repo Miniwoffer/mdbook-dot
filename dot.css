@@ -1,0 +1,126 @@
+
+.graph polygon {
+	fill: none;
+}
+/* light */
+.light .node text {
+	fill: hsl(0, 0%,100%) !important;;
+}
+.light .node polygon,.light .node ellipse {
+	fill: #364149;
+	stroke: none;
+}
+.light .node polyline {
+	stroke: none;
+}
+.light .edge * {
+	stroke: #364149;
+}
+.light .edge polygon {
+	fill: #364149;
+}
+.light .cluster polygon {
+	fill: #bbbbbb;
+	stroke: none;
+}
+.light .cluster text {
+	fill: #000;
+}
+/* rust */
+.rust .node text {
+	fill: hsl(60, 9%,87%) !important;;
+}
+.rust .node polygon,.rust .node ellipse {
+	fill: #3b2e2a;
+	stroke: none;
+}
+.rust .node polyline {
+	stroke: none;
+}
+.rust .edge * {
+	stroke: #3b2e2a;
+}
+.rust .edge polygon {
+	fill: #3b2e2a;
+}
+.rust .cluster polygon {
+	fill: hsl(60,9%,67%);
+	stroke: none;
+}
+.rust .cluster text {
+	fill:#262625;
+}
+/* coal */
+.coal .node text {
+	fill: hsl(200,7%,8%) !important;;
+}
+.coal .node polygon,.coal .node ellipse {
+	fill: #98a3ad;
+	stroke: none;
+}
+.coal .node polyline {
+	stroke: none;
+}
+.coal .edge * {
+	stroke: #98a3ad;
+}
+.coal .edge polygon {
+	fill: #98a3ad;
+}
+.coal .cluster polygon {
+	fill: #292c2f;
+	stroke: none;
+}
+.coal .cluster text {
+	fill:#a1adb8;
+}
+/* navy */
+.navy .node text {
+	fill: hsl(226, 23%, 11%) !important;;
+}
+.navy .node polygon,.navy .node ellipse {
+	fill: #bcbdd0;
+	stroke: none;
+}
+.navy .node polyline {
+	stroke: none;
+}
+.navy .edge * {
+	stroke: #bcbdd0;
+}
+.navy .edge polygon {
+	fill: #bcbdd0;
+
+}
+.navy .cluster polygon {
+	fill: #282d3f;
+	stroke: none;
+}
+.navy .cluster text {
+	fill:#c8c9db;
+}
+/* ayu */
+.ayu .node text {
+	fill: hsl(210, 25%, 8%) !important;;
+}
+.ayu .node polygon,.ayu .node ellipse {
+	fill: #c5c5c5;
+	stroke: none;
+}
+.ayu .node polyline {
+	stroke: none;
+}
+.ayu .edge * {
+	stroke: #c5c5c5;
+}
+.ayu .edge polygon {
+	fill: #c5c5c5;
+
+}
+.ayu .cluster polygon {
+	fill: #14191f;
+	stroke: none;
+}
+.ayu .cluster text {
+	fill:#a1adb8;
+}
